@@ -13,7 +13,6 @@
 /* nav-bar  */
 
 .mc-btn {
-    border-radius: 25px;
     color: white;
 }
 .mc-btn-black {
@@ -22,47 +21,77 @@
 .mc-btn-orange {
     background-color: rgb(205, 61, 15);
 }
-
+.mc-btn-blue {
+    background-color: rgb(0, 114, 206);
+}
 /* Jumbotron  */
-#mc-jumbotron {
-    background-image: url("../img/jumbo-bg.png");
+#mc-jumbotron, #mc-sezione-3 {
     background-size: cover;
     height: 500px;
     background-repeat: no-repeat ;
-    background-position:center ;
+    background-position-x:center ;
+    background-position-y: top ;
+}
+#mc-jumbotron{
+    background-image: url("../img/jumbo-bg.png");
 }
 #mc-jumbotron {
     color: white;
 }
 
 .mc-box {
-    /* width: 100%; */
+    width: 100%;
     height: 100px;
     background-color: red;
 }
 
 /* main  */
 
-.debug #mc-section-1, 
-.debug #mc-section-2,
-.debug #mc-section-3, 
-.debug #mc-section-5,
-.debug #mc-section-6,
-.debug #mc-section-7,
-.debug #mc-section-8,
-.debug #mc-section-9 {
+.debug #mc-sezione-5,
+.debug #mc-sezione-6,
+.debug #mc-sezione-7,
+.debug #mc-sezione-8,
+.debug #mc-sezione-9 {
     background-color: blue;
     margin-top: 20px;
 }
 
-.debug .mc-img-inside {
-    width: 100%;
-    height: 100%;
-    background-color: green;
-    border-radius: 15px;
+/* Sezione-1 */
+.mc-sezione-1-img {
+    border-radius: 25px;
+}
+.mc-sezione-1-border {
+    border: 2px solid rgb(0, 114, 206);
+    padding: 3px;
+    border-radius: 25px;
 }
 
+/* Sezione-2  */
+#mc-sezione-2-title {
+    color: rgb(0, 114, 206);
+}
 
+.mc-sezione-2-box {
+    opacity: 0.5;
+    border-bottom: 2px solid white;
+    width: 200px;
+}
+
+.mc-sezione-2-box:hover {
+    border-bottom: 2px solid rgb(0, 114, 206);
+    opacity: 1;
+}
+
+.mc-sezione-2-img {
+    height: auto;
+    width: 100%;
+}
+
+/* Sezione-3  */
+#mc-sezione-3 {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    color: white;
+}
 .mc-box-play {
 
     width: 100px;
@@ -70,7 +99,7 @@
     background-color: red;
 }
 
-#mc-section-4 {
+#mc-sezione-4 {
     background-color: lightskyblue;
 }
 
