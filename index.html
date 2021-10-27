@@ -11,43 +11,262 @@
 <body>
     
     <!-- header  -->
-    <header>
+    <header class="debug">
 
         <!-- top-bar -->
-        <div id="mc-top-bar"></div>
+        <div id="mc-top-bar" class="d-flex container-fluid justify-content-end align-items-center">
+            <div class="logo"></div>
+        </div>
 
         <!-- nav-bar  -->
-        <div id="mc-nav-bar"></div>
+        <div id="mc-nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        
+                        <!-- Giochi -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="GiochiDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Giochi
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="GiochiDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Hardware -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="HardwareDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Hardware
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="HardwareDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Servizi -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="ServiziDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Servizi
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="ServiziDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        
+                        <!-- Novitá -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="NovitaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Novitá
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="NovitaDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Fai Acquisti -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="FaiacquistiDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Fai acquisti
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="FaiacquistiDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Supporto -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="SupportoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Supporto
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="SupportoDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                      <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="PlayDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            My Playstation
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="PlayDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                      </div>
+                      <div class="mc-debug-button mx-2"></div>
+                      <div class="mc-debug-button mx-2"></div>
+                        
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
 
         <!-- jumbotron  -->
-        <div id="mc-jumbotron"></div>
+        <div id="mc-jumbotron" class="container-fluid d-flex align-items-end">
+            <div class="container ">
+                <div class="row mb-5">
+                    <div class="mc-box col-xs-12 col-md-10 col-lg-4 ">
+                        
+                </div>
+            </div>
+
+        </div>
 
     </header>
 
     <!-- main  -->
-    <main>
+    <main class="debug">
 
         <!-- prima sezione -->
-        <section id="mc-section-1" ></section>
+        <section id="mc-section-1" class="container-fluid ">
+            <div class="container-xs p-4">
+                <div class="row ">
+                    <div class="mc-box border rounded col-6 col-md-4 col-lg-2 p-4 ">
+                        <div class="mc-img-inside"></div>
+                    </div>
+                    <div class="mc-box border rounded col-6 col-md-4 col-lg-2 p-4 ">
+                        <div class="mc-img-inside"></div>
+                    </div>
+                    <div class="mc-box border rounded col-6 col-md-4 col-lg-2 p-4 ">
+                        <div class="mc-img-inside"></div>
+                    </div>
+                    <div class="mc-box border rounded col-6 col-md-4 col-lg-2 p-4 ">
+                        <div class="mc-img-inside"></div>
+                    </div>
+                    <div class="mc-box border rounded col-6 col-md-4 col-lg-2 p-4 ">
+                        <div class="mc-img-inside"></div>
+                    </div>
+                    <div class="mc-box border rounded col-6 col-md-4 col-lg-2 p-4 ">
+                        <div class="mc-img-inside"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
         <!-- seconda sezione -->
-        <section id="mc-section-2" ></section>
+        <section id="mc-section-2" class="container-fluid">
+            <div class="container p-2">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h4>testo blu </h3>
+                        <h2>Ecco la Playstation 5</h4>
+                        <h3>altro testo</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6 ">
+                        <div class="mc-box"></div>
+                    </div>
+                    <div class="col-12 col-lg-6 ">
+                        <div class="mc-box"></div>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap ">
+                    <div class="mc-box-play border m-2"></div>
+                    <div class="mc-box-play border m-2"></div>
+                    <div class="mc-box-play border m-2"></div>
+                    <div class="mc-box-play border m-2"></div>
+                    <div class="mc-box-play border m-2"></div>
 
+                </div>
+            </div>
+        </section>
         <!-- terza sezione -->
-        <section id="mc-section-3" ></section>
+        <section id="mc-section-3" class="container-fluid p-4" >
+            <div id="mc-section-3-top" class="row mb-5">
+                <div class="mc-box col-xs-12 col-md-10 col-lg-4 ">
+                </div>
+            </div>
+            <div id="mc-section-3-bottom" class="row">
+                <div class="col-xs-6 col-sm-4 col-lg-2">
+                    <div class="mc-box-play"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-lg-2">
+                    <div class="mc-box-play"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-lg-2">
+                    <div class="mc-box-play"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-lg-2">
+                    <div class="mc-box-play"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-lg-2">
+                    <div class="mc-box-play"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-lg-2">
+                    <div class="mc-box-play"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur</p>
+                </div>
 
+                <div class="col-xs-6 col-sm-4 col-lg-2">
+                    <div class="mc-box-play"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-lg-2">
+                    <div class="mc-box-play"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-lg-2">
+                    <div class="mc-box-play"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-lg-2">
+                    <div class="mc-box-play"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-lg-2">
+                    <div class="mc-box-play"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-lg-2">
+                    <div class="mc-box-play"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur</p>
+                </div>
+            </div>
+
+
+        </section>
         <!-- quarta sezione -->
         <section id="mc-section-4" ></section>
-
         <!-- quinta sezione -->
         <section id="mc-section-5" ></section>
-
         <!-- sesta sezione -->
         <section id="mc-section-6" ></section>
-
         <!-- settima sezione -->
         <section id="mc-section-7" ></section>
-
         <!-- ottava sezione -->
         <section id="mc-section-8" ></section>
 
@@ -57,43 +276,6 @@
     <footer>
 
     </footer>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
