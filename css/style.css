@@ -1,19 +1,9 @@
-
-/* header */
-
-/* top-nav */
-#mc-top-bar {
-    background-color: black;
-}
-
-#sony-logo {
-    width: 10%;
-}
-
-/* nav-bar  */
-
-.mc-btn {
+/* commons  */
+.mc-btn, .mc-color-white {
     color: white;
+}
+.mc-color-bluPlay {
+    color: rgb(0, 114, 206);
 }
 .mc-btn-black {
     background-color: rgb(54, 54, 54);
@@ -24,19 +14,43 @@
 .mc-btn-blue {
     background-color: rgb(0, 114, 206);
 }
+.mc-btn-lightgrey {
+    background-color: rgb(217, 218, 220s);
+}
+.mc-rounded {
+    border-radius: 25px;
+}
+
+
+/* header */
+
+/* top-nav */
+#header {
+    width: 100%;
+    z-index: 1;
+}
+
+#mc-top-bar {
+    background-color: black;
+}
+
+#sony-logo {
+    width: 100px;
+}
+
+/* nav-bar  */
+
+
 /* Jumbotron  */
 #mc-jumbotron, #mc-sezione-3 {
     background-size: cover;
     height: 500px;
     background-repeat: no-repeat ;
-    background-position-x:center ;
+    background-position-x: center ;
     background-position-y: top ;
 }
 #mc-jumbotron{
     background-image: url("../img/jumbo-bg.png");
-}
-#mc-jumbotron {
-    color: white;
 }
 
 .mc-box {
@@ -47,23 +61,16 @@
 
 /* main  */
 
-.debug #mc-sezione-5,
-.debug #mc-sezione-6,
-.debug #mc-sezione-7,
-.debug #mc-sezione-8,
 .debug #mc-sezione-9 {
     background-color: blue;
     margin-top: 20px;
 }
 
 /* Sezione-1 */
-.mc-sezione-1-img {
-    border-radius: 25px;
-}
+
 .mc-sezione-1-border {
     border: 2px solid rgb(0, 114, 206);
     padding: 3px;
-    border-radius: 25px;
 }
 
 /* Sezione-2  */
@@ -74,7 +81,7 @@
 .mc-sezione-2-box {
     opacity: 0.5;
     border-bottom: 2px solid white;
-    width: 200px;
+    max-width: 200px;
 }
 
 .mc-sezione-2-box:hover {
@@ -90,17 +97,25 @@
 /* Sezione-3  */
 #mc-sezione-3 {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
-    color: white;
 }
+
+/* Sezione 4 */
+
+#mc-sezione-4 {
+    background-color: rgb(31, 31, 31);
+}
+
+/* Sezione 6 */
+#mc-sezione-6 {
+    background-color: rgb(190, 188, 187);
+}
+
+
 .mc-box-play {
 
     width: 100px;
     height: 100px;
     background-color: red;
-}
-
-#mc-sezione-4 {
-    background-color: lightskyblue;
 }
 
 
