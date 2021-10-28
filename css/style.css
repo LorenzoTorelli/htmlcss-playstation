@@ -1,21 +1,42 @@
 /* commons  */
+
 .mc-btn, .mc-color-white {
     color: white;
 }
 .mc-color-bluPlay {
     color: rgb(0, 114, 206);
 }
+
 .mc-btn-black {
     background-color: rgb(54, 54, 54);
 }
+.mc-btn-black:hover {
+    outline: 2px solid rgb(54, 54, 54);
+    outline-offset: 2px;
+}
+
 .mc-btn-orange {
     background-color: rgb(205, 61, 15);
 }
+.mc-btn-orange:hover {
+    outline: 2px solid rgb(205, 61, 15);
+    outline-offset: 2px;
+}
+
 .mc-btn-blue {
     background-color: rgb(0, 114, 206);
 }
+.mc-btn-blue:hover {
+    outline: 2px solid rgb(0, 114, 206);
+    outline-offset: 2px;
+}
+
 .mc-btn-lightgrey {
-    background-color: rgb(217, 218, 220s);
+    background-color: rgb(217, 218, 220);
+}
+.mc-btn-lightgrey:hover {
+    outline: 2px solid rgb(217, 218, 220);
+    outline-offset: 2px;
 }
 .mc-rounded {
     border-radius: 25px;
@@ -28,8 +49,7 @@
 
 /* top-nav */
 header {
-    /* width: 100%; */
-    display: unset;
+   display: unset;
 }
 
 #mc-nav-bar {
@@ -51,6 +71,10 @@ header {
     top: 0;
 }
 
+.mc-dropdown {
+    width: 100vw;
+    left: 0;
+}
 
 #mc-jumbotron, #mc-sezione-3 {
     background-size: cover;
